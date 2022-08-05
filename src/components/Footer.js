@@ -11,7 +11,7 @@ const Footer = () => {
       <p>Rua Sete De Setembro, 904</p>
       <p>Centro, Ivaipora,</p>
       <p>PR, CEP 86870-000, Brasil</p>
-      <p>Copyright &copy; Aço Ivaiporã {today.getFullYear()}</p>
+      {/* <p>Copyright &copy; Aço Ivaiporã {today.getFullYear()}</p> */}
     </footer>
     
   )
