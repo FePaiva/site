@@ -13,7 +13,8 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
+      <div className="content-wrap"> 
         <Header  title="Aço Ivaiporã"  />
         <Nav />
         <Routes> 
@@ -30,6 +31,7 @@ function App() {
                    element={<OndeEstamos />}
             />
         </Routes>
+      </div>
         <Footer />
     </div>
   );

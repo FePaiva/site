@@ -1,4 +1,4 @@
-.App {
+/* .App {
   width: 100%;
   max-width: 1000px;
   height: 100vh;
@@ -8,4 +8,21 @@
   align-items: center;
   border: 1px solid #333;
   box-shadow: 0px 0px 15px gray;
+} */
+
+.page-container {
+  width: 100%;
+  /* max-width: 1000px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 15px gray;
+  min-height: 100vh;
+}
+.content-wrap {
+  width: 100%;
+  flex: 1;
 }
