@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
 
-    <Table striped bordered hover>
+    <Table className="Footer" >
       <thead>
         <tr>
           <th>Endereco</th>

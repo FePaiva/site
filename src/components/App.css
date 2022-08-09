@@ -18,11 +18,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid #333;
-  box-shadow: 0px 0px 15px gray;
+  /* border: 1px solid #333; */
+  /* box-shadow: 0px 0px 15px gray; */
   min-height: 100vh;
+  background-color:white;
+  padding-bottom: 3em;
 }
 .content-wrap {
   width: 100%;
   flex: 1;
 }
+

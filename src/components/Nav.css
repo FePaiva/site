@@ -3,10 +3,29 @@
   background-color: #333;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  /* align-items: flex-start; */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
+.searchForm {
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+}
+
+.searchForm input[type="text"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
 
 .Nav ul {
   color: #fff;
@@ -18,7 +37,6 @@
 
 .Nav li {
   padding: 1rem;
-
 }
 
 .Nav li:hover, 
@@ -42,4 +60,37 @@
 .Nav li:hover a, 
 .Nav li:focus a {
   cursor: pointer;
+}
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 22px;
+  }
+
+  .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Nav ul {
+    text-align: right;
+  }
+
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .searchForm {
+    width: 50%;
+    padding: .5rem 3.0rem;
+  }
+ 
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
 }

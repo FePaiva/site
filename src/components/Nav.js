@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './Nav.css';
 
 
-const Nav = () => {
+const Nav = ({ search, setSearch }) => {
 
   return (
 
@@ -13,6 +13,16 @@ const Nav = () => {
             <li><Link to="/fale-conosco">Fale Conosco</Link></li>
             <li><Link to="/onde-estamos">Onde Estamos</Link></li>
           </ul>
+          <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
+                <label htmfor="search">Buscar Produto</label>
+                <input
+                      id="search"
+                      type="text"
+                      placeholder="Buscar Produto"
+                      value={search}
+                      onChange={(e) => setSearch(e.target.value)}
+                />
+          </form>
     </nav>
     
   );

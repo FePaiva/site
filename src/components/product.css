@@ -1,0 +1,10 @@
+.product {
+  margin-top: 1rem;
+  padding: 1rem 0 0 0.75rem;
+  display: flex;
+}
+
+.product-description {
+  padding: 1rem 0 0 0.75rem;
+
+}
