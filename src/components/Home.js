@@ -1,5 +1,6 @@
 import React from 'react'
 import Feed from './Feed'
+import './Home.css'
 
 
 const Home = ({ products }) => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Produto.css"
+import "./Produto.css";
 
 const Produto = ({ produto }) => {
 
@@ -13,13 +13,13 @@ const Produto = ({ produto }) => {
     <li className="cards__item">
     <div className="card">
       <img onClick={handleClick}
-        src={produto.image}
+        src={produto.pictureUrl}
         alt={produto.name}
         className="card__image"
       />
       <div className="card__content">
         <div className="card__title">{produto.tipo}</div>
-        <p className="card__text">{isModelos ? produto.modelos : produto.descricao}</p>
+        <p className="card__text">{isModelos ? produto.descricao : produto.modelos}</p>
         <div className="card__detail">
           {/* <p>{produto.twitter}</p> */}
           <p>

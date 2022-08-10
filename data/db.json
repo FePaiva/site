@@ -4,23 +4,28 @@
   "produtos": [
       {
           "id": 1,
-          "image": "images/Perfis.png",
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
           "name": "Perfis",
           "tipo": "Perfil estrutural",
-          "modelos":"Perfil estrutural perfiladeira, Perfil estrutural dobradeira, Perfil “L” cantoneira dobrada, Perfil “U” serralheiro, Perfil para porta de rolo, Perfil para pantográfica. ",
-          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a necessidade do cliente. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos no seu produto final. Os perfis podem ser usados em aplicações aparentes para composição de estruturas metálicas, fachadas e coberturas."
+          "modelos":["Perfil estrutural perfiladeira", 
+                    " Perfil estrutural dobradeira", 
+                    " Perfil “L” cantoneira dobrada", 
+                    " Perfil “U” serralheiro", 
+                    " Perfil para porta de rolo", 
+                    " Perfil para pantográfica. "],
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
           "id": 2,
-          "image": "images/Janelas.png",
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0034_Copy.png",
           "name": "Janelas",
           "tipo": "Janelas",
-          "modelos":"Soleira para janela e porta, Palheta para veneziana, Perfil para janela comum e porta, Perfil para janela linhas 20, 25, 40, 50 e outros, Perfil para janela maxim ar.",
+          "modelos":["Soleira para janela e porta", "Palheta para veneziana"," Perfil para janela comum e porta"," Perfil para janela linhas 20, 25, 40, 50 e outros", "Perfil para janela maxim ar."],
           "descricao": "O perfil de janelas da Aço Ivaiporã são altamente resistentes e seguros. Entre suas principais aplicações estão: o uso em esquadrias de portas e janelas, muitas vezes fazendo parte da decoração no seu ambiente."
     },
     {
           "id": 3,
-          "image": "images/MarcoPorta.png",
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0028_Copy.png",
           "name": "Marco de porta",
           "tipo": "Marco de porta",
           "modelos":"Perfil estrutural perfiladeira",
@@ -28,7 +33,7 @@
     },
     {
           "id": 4,
-          "image": "images/Trilhos.png",
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9996_Copy.png",
           "name": "Trilhos",
           "tipo": "Trilhos",
           "modelos":"Perfil estrutural perfiladeira",
@@ -36,7 +41,7 @@
     },
     {
           "id": 5,
-          "image": "images/Formas.png",
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod1.png",
           "name": "Formas",
           "tipo": "Formas",
           "modelos":"Perfil estrutural perfiladeira",
@@ -44,7 +49,7 @@
     },
     {
       "id": 6,
-      "image": "images/Laminados.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9975_Copy.png",
       "name": "Laminados",
       "tipo": "Laminados",
       "modelos":"Perfil estrutural perfiladeira",
@@ -52,7 +57,7 @@
     },
     {
       "id": 7,
-      "image": "images/ConjElevacao.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0002_Copy.png",
       "name": "Conjunto de Elevação",
       "tipo": "Conjunto de Elevação",
       "modelos":"Perfil estrutural perfiladeira",
@@ -60,7 +65,7 @@
     },
     {
       "id": 8,
-      "image": "images/PerfisIW.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/08/vigawl.png",
       "name": "Perfil I e W ",
       "tipo": "Perfil I e W",
       "modelos":"Perfil estrutural perfiladeira",
@@ -68,7 +73,7 @@
     },
     {
       "id": 9,
-      "image": "images/Chapas.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod8.png",
       "name": "Chapas",
       "tipo": "Chapas",
       "modelos":"Perfil estrutural perfiladeira",
@@ -76,7 +81,7 @@
     },
     {
       "id": 10,
-      "image": "images/TiraRaiada",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod10.png",
       "name": "Tira Taiada",
       "tipo": "Alumínio, Tira Raiada, Telas",
       "modelos":"Perfil estrutural perfiladeira",
@@ -84,7 +89,7 @@
     },
     {
       "id": 11,
-      "image": "images/TubosIndustriais.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9899_Copy.png",
       "name": "Tubos Industriais",
       "tipo": "Tubos industriais",
       "modelos":"Perfil estrutural perfiladeira",
@@ -92,7 +97,7 @@
     },
     {
       "id": 12,
-      "image": "images/Degraus.png",
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9936_Copy.png",
       "name": "Degraus",
       "tipo": "Degraus",
       "modelos":"Perfil estrutural perfiladeira",

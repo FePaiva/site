@@ -2,6 +2,7 @@ import React from 'react'
 import Produto from './Produto'
 import "./Produtos.css"
 
+
 const Produtos = ({ produtos }) => {
 
   console.log("produtos", produtos)
