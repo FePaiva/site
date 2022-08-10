@@ -17,8 +17,6 @@ import TiraRaiada from '../images/TiraRaiada.png';
 import Trilhos from '../images/Trilhos.png';
 import TubosIndustriais from '../images/TubosIndustriais.png';
 
-
-
 // PostPage below
 import Produtos from './Produtos'; 
 import Sobre from './Sobre';
@@ -117,10 +115,17 @@ function App() {
       descricao: "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
     }
   ])
+  const [produtos, setProdutos] = useState([]);
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   
   const navigate = useNavigate();
+
+  useEffect(() => {
+    fetch("http://localhost:3500/produtos")
+    .then(res => res.json())
+    .then(data => setProdutos(data))
+  }, [])
 
   // const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3000/posts');
 
@@ -140,10 +145,10 @@ function App() {
             <Route path="/sobre"
                    element={<Sobre />} 
             />
-            <Route path="/produtos/:id" 
-                   element={<Produtos />}
+            <Route path="/produtos" 
+                   element={<Produtos produtos={produtos}/>}
             />
-            <Route path="/fale-conosco" 
+            <Route path="/fale-conosco"  
                    element={<FaleConosco />} 
             />
             <Route path="/onde-estamos"

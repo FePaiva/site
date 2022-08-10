@@ -1,0 +1,102 @@
+
+
+{
+  "produtos": [
+      {
+          "id": 1,
+          "image": "images/Perfis.png",
+          "name": "Perfis",
+          "tipo": "Perfil estrutural",
+          "modelos":"Perfil estrutural perfiladeira, Perfil estrutural dobradeira, Perfil “L” cantoneira dobrada, Perfil “U” serralheiro, Perfil para porta de rolo, Perfil para pantográfica. ",
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a necessidade do cliente. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos no seu produto final. Os perfis podem ser usados em aplicações aparentes para composição de estruturas metálicas, fachadas e coberturas."
+    },
+    {
+          "id": 2,
+          "image": "images/Janelas.png",
+          "name": "Janelas",
+          "tipo": "Janelas",
+          "modelos":"Soleira para janela e porta, Palheta para veneziana, Perfil para janela comum e porta, Perfil para janela linhas 20, 25, 40, 50 e outros, Perfil para janela maxim ar.",
+          "descricao": "O perfil de janelas da Aço Ivaiporã são altamente resistentes e seguros. Entre suas principais aplicações estão: o uso em esquadrias de portas e janelas, muitas vezes fazendo parte da decoração no seu ambiente."
+    },
+    {
+          "id": 3,
+          "image": "images/MarcoPorta.png",
+          "name": "Marco de porta",
+          "tipo": "Marco de porta",
+          "modelos":"Perfil estrutural perfiladeira",
+          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+          "id": 4,
+          "image": "images/Trilhos.png",
+          "name": "Trilhos",
+          "tipo": "Trilhos",
+          "modelos":"Perfil estrutural perfiladeira",
+          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+          "id": 5,
+          "image": "images/Formas.png",
+          "name": "Formas",
+          "tipo": "Formas",
+          "modelos":"Perfil estrutural perfiladeira",
+          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 6,
+      "image": "images/Laminados.png",
+      "name": "Laminados",
+      "tipo": "Laminados",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 7,
+      "image": "images/ConjElevacao.png",
+      "name": "Conjunto de Elevação",
+      "tipo": "Conjunto de Elevação",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 8,
+      "image": "images/PerfisIW.png",
+      "name": "Perfil I e W ",
+      "tipo": "Perfil I e W",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 9,
+      "image": "images/Chapas.png",
+      "name": "Chapas",
+      "tipo": "Chapas",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 10,
+      "image": "images/TiraRaiada",
+      "name": "Tira Taiada",
+      "tipo": "Alumínio, Tira Raiada, Telas",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 11,
+      "image": "images/TubosIndustriais.png",
+      "name": "Tubos Industriais",
+      "tipo": "Tubos industriais",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    },
+    {
+      "id": 12,
+      "image": "images/Degraus.png",
+      "name": "Degraus",
+      "tipo": "Degraus",
+      "modelos":"Perfil estrutural perfiladeira",
+      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+    }
+    ]
+}
