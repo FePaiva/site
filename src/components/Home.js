@@ -1,9 +1,12 @@
 import React from 'react'
 import Feed from './Feed'
-import './Home.css'
+// import './Home.css'
 
 
 const Home = ({ products }) => {
+
+  
+
   return (
     <main className="Home"> 
         {products.length ? (

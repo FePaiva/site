@@ -1,9 +1,11 @@
-import './App.css';
+// import './App.css';
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
 import Home from './Home';
-import logo from '../images/logo.png'
+import useWindowSize from '../hooks/useWindowSize';
+
+// images
 import Chapas from '../images/Chapas.png';
 import ConjElevacao from '../images/ConjElevacao.png';
 import Degraus from '../images/Degraus.png';
@@ -25,6 +27,7 @@ import OndeEstamos from './OndeEstamos';
 import Missing from './Missing';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import ProductPage from './ProductPage';
 
 
 function App() {
@@ -118,8 +121,17 @@ function App() {
   const [produtos, setProdutos] = useState([]);
   const [search, setSearch] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  
+  const { width } = useWindowSize();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const filteredResults = products.filter(product => 
+      ((product.tipo).toLowerCase()).includes(search.toLocaleLowerCase())
+      ||((product.modelos).toLowerCase()).includes(search.toLocaleLowerCase()));
+
+      setSearchResults(filteredResults);
+  }, [products, search])
+
 
   useEffect(() => {
     fetch("http://localhost:3500/produtos")
@@ -131,15 +143,15 @@ function App() {
 
 
   return (
-    <div className="page-container">
-      <div className="content-wrap"> 
-        <Header    
+    <div className="App">
+      {/* <div className="content-wrap">  */}
+        <Header width={width}   
         />
         <Nav search={search} setSearch={setSearch} />
         <Routes> 
         <Route path="/"
                    element={<Home 
-                                products={products}
+                                products={searchResults}
                             />} 
             />
             <Route path="/sobre"
@@ -147,6 +159,9 @@ function App() {
             />
             <Route path="/produtos" 
                    element={<Produtos produtos={produtos}/>}
+            />
+            <Route path="/product/:id" 
+                   element={<ProductPage products={products}/>}
             />
             <Route path="/fale-conosco"  
                    element={<FaleConosco />} 
@@ -157,7 +172,7 @@ function App() {
             <Route path="*" 
                     element={<Missing />} />
         </Routes>
-      </div>
+      {/* </div> */}
         <Footer />
     </div>
   );

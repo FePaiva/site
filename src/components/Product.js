@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './product.css'
+// import './product.css'
 
 const Product = ({ product }) => {
   return (
@@ -13,10 +13,11 @@ const Product = ({ product }) => {
             />
             <h2>{product.tipo}</h2>
           </Link>
-          <div className='product-description'>
-              <p>{product.modelos}</p>
-              <p>{product.descricao}</p>
-          </div>
+          <p className="product-description">{
+                (product.descricao).length <=100 
+                    ? product.descricao
+                    : `${(product.descricao).slice(0,100)}...`
+                }</p>
     </div>
   )
 }
