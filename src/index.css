@@ -1,32 +1,3 @@
- /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
- * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- 
- html {
-   font-size: 15px;
- }
- 
- body {
-   min-height: 100vh;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   display: flex;
-   background-color:white;
- }
- 
- #root {
-   flex-grow: 1;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- } */
-
- /* new css below */
-
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -49,7 +20,7 @@ body {
 }
 
 #root {
-  flex-grow: 2;
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,19 +28,21 @@ body {
 
 .App {
   width: 100%;
-  max-width: 99%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid #333;
-  box-shadow: 0px 0px 15px gray;
+  position: relative;
+}
+.content-wrap {
+  width: 100%;
+  flex: 1;
 }
 
 .Header {
   width: 100%;
-  height: 150px;
+  height: 110px;
   background-color: white;
   padding: 1rem;
   display: flex;
@@ -118,6 +91,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .searchForm {
@@ -147,6 +121,9 @@ body {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  margin-left: 1rem;
+  align-items: space-around;
+
 }
 
 .Nav li {
@@ -175,42 +152,59 @@ body {
 .Nav li:focus a {
   cursor: pointer;
 }
+
 @media only screen and (min-width: 610px) {
   html {
     font-size: 22px;
   }
 
-.Home, .About, .Missing {
+.Home, .Missing {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
   overflow-y: auto;
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/4, max(64px, 100%/4)), 1fr));
+}
+
+
+.About {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+  display: table;
+  /* grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr)); */
   
 }
 
-.product {
+.Product {
   max-width: 100%;
-  margin-top: 1rem;
+  margin-top: .3rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
-.Home .product a {
+.Product h2 {
+  margin: 0;
+}
+
+.Home .Product a {
   text-decoration: none;
 }
 
-.Home .product a, 
-.Home .product a:visited {
+.Home .Product a, 
+.Home .Product a:visited {
   color: blue;
 }
 
-.product:first-child {
+.Product:first-child {
   margin-top: none;
 }
 
-.product:last-child {
+.Product:last-child {
   border-bottom: none;
 }
 
@@ -220,7 +214,7 @@ body {
 } */
 
 .product-description {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .newPostForm {
@@ -277,11 +271,14 @@ body {
   background-color: red;
 }
 
-.voltarButton {
+.button {
   background-color: blue;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   padding: 8px 20px;
+  border-radius: 10%;
+  margin: 1rem;
+  cursor: pointer;
 }
 
 .statusMsg {
@@ -326,9 +323,19 @@ body {
 }
 
 .Footer {
-  padding: 0.75rem;
-  display: grid;
-  place-content: center;
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  /* padding: 0.75rem; */
+  display: table;
+  align-content: start;
+  /* position: absolute; */
+  bottom: 0;
+  height: 2.5rem;  
+}
+
+.tbody {
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) {
@@ -356,4 +363,57 @@ body {
   Footer {
     margin-bottom: 100px;
   }
+}
+
+/* --------------------------------- COMMUNICATION ---------------------- */
+.communication .whatsapp-card {
+  background-color: var(--light-color);
+  border-radius: 10px;
+  width: 300px;
+  min-height: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0.5em;
+}
+
+.communication .whatsapp-card .title {
+  color: var(--check-color);
+  font-size: 1.4em;
+  margin-top: 0.5em;
+}
+
+.communication .whatsapp-card .search_contact_whatsapp {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  column-gap: 1em;
+  margin: 1em 0;
+}
+
+.communication .whatsapp-card .search_contact_whatsapp .add_new_client {
+  margin-top: 0.5em;
+  color: var(--grey-color);
+  cursor: pointer;
+}
+
+/* --------------------------------- ERRORS ---------------------------------- */
+.errors {
+  font-size: 0.75em;
+  background-color: var(--closing-color);
+  color: var(--light-color);
+  width: 90%;
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 0.8em;
+}
+
+.errors-null {
+  font-size: 0.75em;
+  background-color: none;
+  color: var(--light-color);
+  width: 90%;
+  padding: 0.2em 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 0.8em;
 }

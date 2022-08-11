@@ -20,7 +20,7 @@ const ProductPage = ({ products }) => {
                 <p>{product.modelos}</p>
                 <p className="product-description">{product.descricao}</p>
                 <p>
-                    <Link to='/'><button className="voltarButton">Voltar</button></Link>
+                    <Link to='/'><button className="button">Voltar</button></Link>
                 </p>
             </>
             }

@@ -144,7 +144,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div className="content-wrap">  */}
+      <div className="content-wrap"> 
         <Header width={width}   
         />
         <Nav search={search} setSearch={setSearch} />
@@ -172,7 +172,7 @@ function App() {
             <Route path="*" 
                     element={<Missing />} />
         </Routes>
-      {/* </div> */}
+      </div>
         <Footer />
     </div>
   );

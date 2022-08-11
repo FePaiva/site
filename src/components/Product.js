@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Product = ({ product }) => {
   return (
-    <div className="product">
+    <div className="Product">
           <Link to={`/product/${product.id}`}>
             <img 
                 style={{ width: '300px', height: '300px'}}
@@ -13,11 +13,14 @@ const Product = ({ product }) => {
             />
             <h2>{product.tipo}</h2>
           </Link>
-          <p className="product-description">{
+          {/* <p className="product-description">{
                 (product.descricao).length <=100 
                     ? product.descricao
                     : `${(product.descricao).slice(0,100)}...`
-                }</p>
+                    }
+            </p> */}
+            <Link to={`/product/${product.id}`}><button className="button" >Saiba Mais</button></Link>
+          
     </div>
   )
 }
