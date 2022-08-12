@@ -153,6 +153,112 @@ body {
   cursor: pointer;
 }
 
+.Home, .Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%/4, max(64px, 100%/4)), 1fr));
+}
+.About {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+  display: table;
+  /* grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/3)), 1fr)); */
+  
+}
+
+.Product {
+  max-width: 100%;
+  margin-top: .3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.Product h2 {
+  margin: 0;
+}
+
+.Home .Product a {
+  text-decoration: none;
+}
+
+.Home .Product a, 
+.Home .Product a:visited {
+  color: blue;
+}
+
+.Product:first-child {
+  margin-top: none;
+}
+
+.Product:last-child {
+  border-bottom: none;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+
+}
+
+.product p {
+  margin: 1rem;
+}
+
+/* .product-description {
+  margin: 1rem;
+} */
+
+.Missing p {
+  margin-top: 1rem;
+}
+
+/* .ProductPage button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+} */
+
+.button {
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 20px;
+  border-radius: 10%;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.Footer {
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  /* padding: 0.75rem; */
+  display: table;
+  align-content: start;
+  /* position: absolute; */
+  bottom: 0;
+  height: 2.5rem;  
+}
+
+.tbody {
+  text-align: center;
+}
+
+/* --------------------------------- min-width: 610px ---------------------- */
+
 @media only screen and (min-width: 610px) {
   html {
     font-size: 22px;
@@ -208,51 +314,11 @@ body {
   border-bottom: none;
 }
 
-/* .postDate {
-  font-size: 0.75rem;
-  margin-top: 0.25rem;
-} */
-
 .product-description {
   margin: 1rem;
 }
 
-.newPostForm {
-  display: flex;
-  flex-direction: column;
-}
-
-.newPostForm label {
-  margin-top: 1rem;
-}
-
-.newPostForm input[type='text'], 
-.newPostForm textarea {
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  min-height: 48px;
-  font-size: 1rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  margin-right: 0.25rem;
-  outline: none;
-}
-
-.newPostForm textarea {
-  height: 100px;
-}
-
-.newPostForm button {
-  margin-top: 1rem;
-  height: 48px;
-  min-width: 48px;
-  border-radius: 10px;
-  padding: 0.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.Missing p, .PostPage p, .NewPost p {
+.Missing p {
   margin-top: 1rem;
 }
 
@@ -316,52 +382,14 @@ body {
   .searchForm input[type="text"] {
     margin-left: 0.5rem;
   }
-
-  .newPostForm textarea {
-    height: 300px;
-  }
 }
 
-.Footer {
-  width: 100%;
-  color: #fff;
-  background-color: #333;
-  /* padding: 0.75rem; */
-  display: table;
-  align-content: start;
-  /* position: absolute; */
-  bottom: 0;
-  height: 2.5rem;  
-}
 
-.tbody {
-  text-align: center;
-}
 
 @media only screen and (min-width: 992px) {
 
   .Header svg {
     font-size: 3rem;
-  }
-
-}
-/* Small Screens */
-@media only screen and (max-width: 600px) {
-  .Nav {
-    bottom: 0;
-    width: 100vw;
-    height: 5rem;
-  }
-  
-  .navbar li {
-    flex-direction: row;
-  }
-  main {
-    margin: 0;
-  }
-
-  Footer {
-    margin-bottom: 100px;
   }
 }
 

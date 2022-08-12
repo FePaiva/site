@@ -8,7 +8,7 @@ const Product = ({ product }) => {
           <Link to={`/product/${product.id}`}>
             <img 
                 style={{ width: '300px', height: '300px'}}
-                src={product.image} 
+                src={product.pictureUrl} 
                 alt={product.tipo}
             />
             <h2>{product.tipo}</h2>

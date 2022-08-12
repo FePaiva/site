@@ -1,12 +1,12 @@
 
 
 {
-  "produtos": [
+  "products": [
       {
           "id": 1,
           "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
-          "name": "Perfis",
-          "tipo": "Perfil estrutural",
+          "name": "Perfil",
+          "tipo": "Perfil",
           "modelos":["Perfil estrutural perfiladeira", 
                     " Perfil estrutural dobradeira", 
                     " Perfil “L” cantoneira dobrada", 

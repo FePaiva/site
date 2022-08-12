@@ -12,11 +12,11 @@ const ProductPage = ({ products }) => {
             {product &&
             <>
                 <img 
-                    style={{ width: '300px', height: '300px'}}
-                    src={product.image} 
+                    // style={{ width: '300px', height: '300px'}}
+                    src={product.pictureUrl} 
                     alt={product.tipo}
                 />
-                <p>{product.tipo}</p>
+                <p>{product.name}</p>
                 <p>{product.modelos}</p>
                 <p className="product-description">{product.descricao}</p>
                 <p>
