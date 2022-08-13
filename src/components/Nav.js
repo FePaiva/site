@@ -14,7 +14,7 @@ const Nav = ({ search, setSearch }) => {
             {/* <li><Link to="/produtos">Produtos</Link></li> */}
             <li><Link to="/fale-conosco">Fale Conosco</Link></li>
             <li><Link to="/onde-estamos">Onde Estamos</Link></li>
-            <li>Whatsapp<SendMessages /></li>
+            <><SendMessages />Whatsapp</>
           </ul>
           <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
                 <label htmfor="search">Buscar Produto</label>

@@ -26,10 +26,6 @@ import { useState, useEffect } from 'react';
 // import Trilhos from '../images/Trilhos.png';
 // import TubosIndustriais from '../images/TubosIndustriais.png';
 
-
-
-
-
 function App() {
 
   // const [products, setProducts] = useState([
@@ -127,7 +123,8 @@ function App() {
   useEffect(() => {
     const filteredResults = products.filter(product => 
       ((product.tipo).toLowerCase()).includes(search.toLocaleLowerCase())
-      ||((product.modelos).toLowerCase()).includes(search.toLocaleLowerCase()));
+      // ||((product.modelos).toLowerCase()).includes(search.toLocaleLowerCase())
+      );
 
       setSearchResults(filteredResults);
   }, [products, search])
@@ -139,15 +136,15 @@ function App() {
     .then(data => setProducts(data))
   }, [])
 
-  // const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3000/posts');
+  // const { data, fetchError, isLoading } = useAxiosFetch('http://localhost:3000/products');
 
 
   return (
     <div className="App">
-      <div className="content-wrap"> 
         <Header width={width}   
         />
         <Nav search={search} setSearch={setSearch} />
+      <div className="content-wrap"> 
         <Routes> 
         <Route path="/"
                    element={<Home 

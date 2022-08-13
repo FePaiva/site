@@ -7,20 +7,15 @@
           "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
           "name": "Perfil",
           "tipo": "Perfil",
-          "modelos":["Perfil estrutural perfiladeira", 
-                    " Perfil estrutural dobradeira", 
-                    " Perfil “L” cantoneira dobrada", 
-                    " Perfil “U” serralheiro", 
-                    " Perfil para porta de rolo", 
-                    " Perfil para pantográfica. "],
+          "modelos":"PERFIL 07 - TRILHO P/ PORTA DE ROLO, PERFIL 09 - U / PANTOGRAFICA 20 X 10 CH1,20 C/ 3,00MTRS, PERFIL 10 - U/ PANTOGRAFICA 20 X 10 CH 1.20 C/6000, PERFIL 20 - GUIA STANLEY C/3000",
           "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
           "id": 2,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0034_Copy.png",
-          "name": "Janelas",
-          "tipo": "Janelas",
-          "modelos":["Soleira para janela e porta", "Palheta para veneziana"," Perfil para janela comum e porta"," Perfil para janela linhas 20, 25, 40, 50 e outros", "Perfil para janela maxim ar."],
+          "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL50Q8gwE-nAZsSMr1_qcNPxrqNlo5tLX02g&usqp=CAU",
+          "name": "Arruelas",
+          "tipo": "Arruelas",
+          "modelos":"Perfil estrutural perfiladeira",
           "descricao": "O perfil de janelas da Aço Ivaiporã são altamente resistentes e seguros. Entre suas principais aplicações estão: o uso em esquadrias de portas e janelas, muitas vezes fazendo parte da decoração no seu ambiente."
     },
     {

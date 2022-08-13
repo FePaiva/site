@@ -7,7 +7,7 @@ import SendMessages from './SendMessage';
 
 
 const Footer = () => {
-  const today = new Date();
+  // const today = new Date();
 
   return (
 
@@ -19,7 +19,7 @@ const Footer = () => {
           <th>Redes Sociais</th>
         </tr>
       </thead>
-      <tbody className="tbody">
+      <tbody className="tbodyFooter">
         <tr>
           <td>Rua Sete De Setembro, 904</td>
           <td>407-280-4111</td>
@@ -27,13 +27,13 @@ const Footer = () => {
         </tr>
         <tr>
           <td>Centro - CEP 86870-000</td>
-          <td>acoivaipora@email.com</td>
+          <td><a href="mailto:acoivaipora@hotmail.com">acoivaipora@hotmail.com</a></td>
           <td>@fat</td>
         </tr>
         <tr>
           <td>Ivaipora, PR - Brasil</td>
-          <td>acoivaipora@email.com</td>
-          <td><SendMessages /></td>
+          <td style={{ cursor: 'pointer' }}><SendMessages /></td>
+          <td style={{ cursor: 'pointer' }}><SendMessages /></td>
         </tr>
       </tbody>
     </Table>
