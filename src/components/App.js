@@ -122,8 +122,8 @@ function App() {
 
   useEffect(() => {
     const filteredResults = products.filter(product => 
-      ((product.tipo).toLowerCase()).includes(search.toLocaleLowerCase())
-      // ||((product.modelos).toLowerCase()).includes(search.toLocaleLowerCase())
+      ((product.name).toLowerCase()).includes(search.toLocaleLowerCase())
+      ||((product.mod1).toLowerCase()).includes(search.toLocaleLowerCase())
       );
 
       setSearchResults(filteredResults);

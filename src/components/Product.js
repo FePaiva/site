@@ -9,9 +9,9 @@ const Product = ({ product }) => {
             <img 
                 style={{ width: '300px', height: '300px'}}
                 src={product.pictureUrl} 
-                alt={product.tipo}
+                alt={product.name}
             />
-            <h2>{product.tipo}</h2>
+            <h2>{product.name}</h2>
           </Link>
           {/* <p className="product-description">{
                 (product.descricao).length <=100 

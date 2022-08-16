@@ -219,6 +219,7 @@ body {
 
 .ProductPage {
   margin-top: 200px;
+  margin-right: 30px;
   height:60vh;
 }
 
@@ -227,21 +228,27 @@ body {
   width: 100%;
 }
 
+.ProductPage caption {
+  font-family: 'Rock Salt', cursive;
+  letter-spacing: 2px;
+
+}
+
 .ProductPage thead th:nth-child(1) {
-  width: 30%;
+  width: 20%;
 }
 
 .ProductPage thead th:nth-child(2) {
-  width: 10%;
+  width: 30%;
 }
 
 .ProductPage thead th:nth-child(3) {
-  width: 15%;
+  width: 50%;
 }
 
-.ProductPage thead th:nth-child(4) {
+/* .ProductPage thead th:nth-child(4) {
   width: 45%;
-}
+} */
 
 .ProductPage th, td {
   padding: 5px;
@@ -256,7 +263,10 @@ body {
 }
 
 .ProductPage td {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
+  list-style-type: none;
+ 
+
 }
 
 .ProductPage tbody td {
@@ -395,7 +405,6 @@ span{
   background-color: rgb(86, 82, 82);
   /* padding: 0.75rem; */
   display: table;
-  align-content: start;
   /* position: absolute; */
   bottom: 0;
   height: 2.5rem;  

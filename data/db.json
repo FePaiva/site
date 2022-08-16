@@ -7,96 +7,244 @@
           "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
           "name": "Perfil",
           "tipo": "Perfil",
-          "modelos":"PERFIL 07 - TRILHO P/ PORTA DE ROLO, PERFIL 09 - U / PANTOGRAFICA 20 X 10 CH1,20 C/ 3,00MTRS, PERFIL 10 - U/ PANTOGRAFICA 20 X 10 CH 1.20 C/6000, PERFIL 20 - GUIA STANLEY C/3000",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
           "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
           "id": 2,
-          "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL50Q8gwE-nAZsSMr1_qcNPxrqNlo5tLX02g&usqp=CAU",
-          "name": "Arruelas",
-          "tipo": "Arruelas",
-          "modelos":"Perfil estrutural perfiladeira",
-          "descricao": "O perfil de janelas da Aço Ivaiporã são altamente resistentes e seguros. Entre suas principais aplicações estão: o uso em esquadrias de portas e janelas, muitas vezes fazendo parte da decoração no seu ambiente."
+          "pictureUrl": "https://www2.gerdau.com/sites/gln_gerdau/files/cantoneira_0.jpg",
+          "name": "Cantoneira",
+          "tipo": "Cantoneira",
+          "mod1": "Cantoneira Gerdau 1x1/4",
+          "mod2": "Cantoneira Gerdau 1x1/8",
+          "mod3": "Cantoneira Gerdau 2x3/16",
+          "mod4": "Cantoneira Gerdau 7/8x1/8",
+          "descricao": "Cantoneiras Gerday podem ser utilizada em diversas aplicações como em estruturas metálicas, torres de transmissão, de energia elétrica, de telecomunicações, máquinas e implementos agrícolas em serralherias e na indústria mecânica em geral."
     },
     {
           "id": 3,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0028_Copy.png",
-          "name": "Marco de porta",
-          "tipo": "Marco de porta",
-          "modelos":"Perfil estrutural perfiladeira",
-          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "pictureUrl": "https://casaserralheiro.com.br/wp-content/webp-express/webp-images/uploads/2020/12/Casa-do-Serralheiro-Produtos-Chapas-Chapa-de-Aco-Preta.jpg.webp",
+          "name": "Chapa Preta",
+          "tipo": "Chapa Preta",
+          "mod1": "Chapa 1/4 preta 3000x1200 esp. 3,35mm",
+          "mod2": "Chapa 12 preta 3000x1200 esp. 2,65mm  ",
+          "mod3": "Chapa 3/16 preta 3000x1200 esp. 4,75mm",
+          "mod4": "Chapa 4,25 preta 3000x1200 esp. 4,25mm" ,
+          "descricao": "Entre os benefícios da Chapa Grossa Gerdau estão, a alta tenacidade e resistência à fadiga, para atendimento das demandas mais exigentes e de elevada responsabilidade, além de um padrão superficial diferenciado, proporcionando qualidade excepcional de pintura. Possui ainda, precisão dimensional diferenciada, e reduz a perda metálica, oferecendo maior rendimento e facilidade no ajuste da união das seções que compõem os equipamentos."
     },
     {
           "id": 4,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9996_Copy.png",
-          "name": "Trilhos",
-          "tipo": "Trilhos",
-          "modelos":"Perfil estrutural perfiladeira",
-          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "pictureUrl": "https://megatelha.com.br/wp-content/uploads/2021/07/chapa-buzio.jpg",
+          "name": "Chapa Buzio",
+          "tipo": "Chapa Buzio",
+          "mod1": "Chapa Buzio 0,75x2000x1090mm",
+          "mod2": "Chapa Buzio 0,75x2200x1090mm",
+          "mod3": "Chapa Buzio 0,75x2500x1090mm",
+          "mod4": "Chapa Buzio 0,75x3000x1090mm" ,
+          "descricao": "Chapas de aço carbono ondulada, usada como alternativa para a chapa frizada devido ao acabamento diferenciado. Possui ótima qualidade e excelente acabamento. Possui diversos usos, sendo utilizada principalmente em portas e portões."
     },
     {
           "id": 5,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod1.png",
-          "name": "Formas",
-          "tipo": "Formas",
-          "modelos":"Perfil estrutural perfiladeira",
-          "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "pictureUrl": "https://cdn.dooca.store/6497/products/8shige9cm0x6zvisfujk9i92cexm8ra3xxli_1600x1600+fill_ffffff.jpg?v=1643744866",
+          "name": "Chapa Frisada",
+          "tipo": "Chapa Frisada",
+          "mod1": "Chapa Frisada em V galvanizada 2,00x1,10",
+          "mod2": "Chapa Frisada em V galvanizada 3,00x1,10",
+          "mod3": "Chapa Frisada Preta em V galvanizada 2,00x1,10",
+          "mod4": "Chapa Frisada Preta em V galvanizada 3,00x1,10" ,
+          "descricao": "As chapas frisadas sao criadas a base de aco e carbono e comumente usadas para fins externos, como portões de casas, portas e paineis, devido a sua grande resistência ao clima adverso."
+    }
+    ,
+    {
+          "id": 6,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
-      "id": 6,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9975_Copy.png",
-      "name": "Laminados",
-      "tipo": "Laminados",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
-    },
-    {
-      "id": 7,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_0002_Copy.png",
-      "name": "Conjunto de Elevação",
-      "tipo": "Conjunto de Elevação",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "id": 7,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
       "id": 8,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/08/vigawl.png",
-      "name": "Perfil I e W ",
-      "tipo": "Perfil I e W",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+      "name": "Perfil",
+      "tipo": "Perfil",
+      "mod1": "Perfil 07: Trilho para porta de rolo",
+      "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+      "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+      "mod4": "Perfil 20: Guia Stanley com 3000" ,
+      "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
-      "id": 9,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod8.png",
-      "name": "Chapas",
-      "tipo": "Chapas",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "id": 9,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
-      "id": 10,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/prod10.png",
-      "name": "Tira Taiada",
-      "tipo": "Alumínio, Tira Raiada, Telas",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "id": 10,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
-      "id": 11,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9899_Copy.png",
-      "name": "Tubos Industriais",
-      "tipo": "Tubos industriais",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
+          "id": 11,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
     },
     {
-      "id": 12,
-      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9936_Copy.png",
-      "name": "Degraus",
-      "tipo": "Degraus",
-      "modelos":"Perfil estrutural perfiladeira",
-      "descricao": "Vou postar alguma coisa aqui pra testar se funciona.\n\nNao tenho oq escrever por enquanto."
-    }
-    ]
+          "id": 12,
+          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+          "name": "Perfil",
+          "tipo": "Perfil",
+          "mod1": "Perfil 07: Trilho para porta de rolo",
+          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+    },
+    {
+      "id": 13,
+      "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+      "name": "Perfil",
+      "tipo": "Perfil",
+      "mod1": "Perfil 07: Trilho para porta de rolo",
+      "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+      "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+      "mod4": "Perfil 20: Guia Stanley com 3000" ,
+      "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 14,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 15,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 16,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 17,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 18,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 19,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 20,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 21,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+},
+{
+  "id": 22,
+  "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
+  "name": "Perfil",
+  "tipo": "Perfil",
+  "mod1": "Perfil 07: Trilho para porta de rolo",
+  "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
+  "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
+  "mod4": "Perfil 20: Guia Stanley com 3000" ,
+  "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+}
+]
 }

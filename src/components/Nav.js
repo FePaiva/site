@@ -13,7 +13,7 @@ const Nav = ({ search, setSearch }) => {
             <li><Link to="/sobre">Sobre</Link></li>
             {/* <li><Link to="/produtos">Produtos</Link></li> */}
             <li><Link to="/fale-conosco">Fale Conosco</Link></li>
-            <li><Link to="/onde-estamos">Onde Estamos</Link></li>
+            <li><a target="_blank" href="https://www.google.com/maps/place/A%C3%A7o+Ivaipor%C3%A3/@-24.2453929,-51.6810971,17z/data=!3m1!4b1!4m5!3m4!1s0x94ec158b4ddff415:0x70d9c0f4c4a5b726!8m2!3d-24.2454181!4d-51.6788713">Onde Estamos</a></li>
             <><SendMessages />Whatsapp</>
           </ul>
           <form className="searchForm" onSubmit={(e) => e.preventDefault()}>

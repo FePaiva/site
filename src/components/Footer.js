@@ -2,7 +2,7 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 // import './Footer.css';
 import Table from 'react-bootstrap/Table';
-import SendMessages from './SendMessage';
+// import SendMessages from './SendMessage';
 
 
 
@@ -22,7 +22,7 @@ const Footer = () => {
       <tbody className="tbodyFooter">
         <tr>
           <td>Rua Sete De Setembro, 904</td>
-          <td>407-280-4111</td>
+          <td>(43) 999911-1746</td>
           <td>@mdo</td>
         </tr>
         <tr>
@@ -32,8 +32,7 @@ const Footer = () => {
         </tr>
         <tr>
           <td>Ivaipora, PR - Brasil</td>
-          <td style={{ cursor: 'pointer' }}><SendMessages /></td>
-          <td style={{ cursor: 'pointer' }}><SendMessages /></td>
+          {/* <td style={{ cursor: 'pointer' }}><SendMessages /></td> */}
         </tr>
       </tbody>
     </Table>
