@@ -33,7 +33,7 @@
           "mod2": "Chapa 12 preta 3000x1200 esp. 2,65mm  ",
           "mod3": "Chapa 3/16 preta 3000x1200 esp. 4,75mm",
           "mod4": "Chapa 4,25 preta 3000x1200 esp. 4,25mm" ,
-          "descricao": "Entre os benefícios da Chapa Grossa Gerdau estão, a alta tenacidade e resistência à fadiga, para atendimento das demandas mais exigentes e de elevada responsabilidade, além de um padrão superficial diferenciado, proporcionando qualidade excepcional de pintura. Possui ainda, precisão dimensional diferenciada, e reduz a perda metálica, oferecendo maior rendimento e facilidade no ajuste da união das seções que compõem os equipamentos."
+          "descricao": "As chapas são resistência à fadiga, possuindo uma precisão dimensional diferenciada, reduzindo a perda metálica, oferecendo maior rendimento e facilidade no ajuste da união das seções que compõem os equipamentos."
     },
     {
           "id": 4,
@@ -60,26 +60,26 @@
     ,
     {
           "id": 6,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
-          "name": "Perfil",
-          "tipo": "Perfil",
-          "mod1": "Perfil 07: Trilho para porta de rolo",
-          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
-          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
-          "mod4": "Perfil 20: Guia Stanley com 3000" ,
+          "pictureUrl": "https://www2.gerdau.com/sites/gln_gerdau/files/barra-chata_0.jpg",
+          "name": "Ferro Chato",
+          "tipo": "Ferro Chato",
+          "mod1": "Ferro Chato 1x1/4",
+          "mod2": "Ferro Chato 2x1/4",
+          "mod3": "Ferro Chato 3x1/4",
+          "mod4": "Ferro Chato 6x1/4" ,
 
-          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+          "descricao": "O ferro chato é extremamente versátil, sendo empregado principalmente em grades e portões, esquadrias, máquinas, implementos agrícolas e rodoviários, e na indústria mecânica em geral."
     },
     {
           "id": 7,
-          "pictureUrl": "https://tevere.com.br/wp-content/uploads/2021/07/GPK_9982_Copy.png",
-          "name": "Perfil",
-          "tipo": "Perfil",
-          "mod1": "Perfil 07: Trilho para porta de rolo",
-          "mod2": "Perfil 09: U / Pantografica 20x10 CH1",
-          "mod3": "Perfil 10: U/ Pantografica 20x10 CH 1.20",
-          "mod4": "Perfil 20: Guia Stanley com 3000" ,
-          "descricao": "Os perfis da Aço Ivaiporã são produzidos de acordo com os mais rigorosos padrões de qualidade. Fornecemos produtos em tamanho padrão ou de acordo com a sua necessidade. Também possuímos uma ampla variedade de espessuras e medidas, como chapas Fina Frio, Fina Quente, Galvanizada, Cosa Cor, A36 e Civil 300, que possibilitam melhores soluções de encaixes e acabamentos."
+          "pictureUrl": "https://www2.gerdau.com/sites/gln_gerdau/files/barra-acos-ferramenta_0.jpg",
+          "name": "Ferros Quadrados, Redondos e Tee",
+          "tipo": "Ferros Quadrados, Redondos e Tee",
+          "mod1": "Ferro Quadrado 1/2",
+          "mod2": "Ferro Quadrado 3/8",
+          "mod3": "Ferro Redondo 1/2",
+          "mod4": "Ferro Tee 3/4x1/8",
+          "descricao": "As barras de ferros são utilizada na construção de grades e portões em obras residenciais, comerciais e industriais. Além disso, também podem ser aplicadas em: esquadrias, peças de máquinas e implementos agrícolas, assim como na indústria mecânica em geral."
     },
     {
       "id": 8,
